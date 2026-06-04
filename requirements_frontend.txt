@@ -1,0 +1,10 @@
+pandas
+scikit-learn==1.5.0
+shap
+matplotlib
+streamlit
+google-generativeai
+PyMuPDF
+pillow
+python-dotenv
+requests
