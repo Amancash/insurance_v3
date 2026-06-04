@@ -1,0 +1,7 @@
+.env
+insurance_app.db
+model.pkl
+__pycache__/
+*.pyc
+.venv/
+venv/
