@@ -262,6 +262,7 @@ def apply_discount(payload: dict):
 @app.get("/benchmark/{user_id}")
 def benchmark(user_id: int, city: str = "", age: int = 25):
     try:
+        # fixs bugs
         import database as db
         all_preds  = db.get_all_predictions_flat()
         user_preds = db.get_user_predictions(user_id, limit=1)
